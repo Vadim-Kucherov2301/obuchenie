@@ -54,5 +54,32 @@ let result = power(2,3);
  console.log(finish.two);
 
 
-//  7.
+//  7. 
 
+const calculate1 = () => {
+    const n = 10;
+    const m = 25;
+
+    return n + m;
+}
+
+const fat = calculate1 ()
+console.log(fat)
+
+// 8.
+
+function calculate2(a,b){
+    const result = a * 5
+    return result * b
+}
+
+const end = calculate2(456,234)
+console.log(end)
+
+// 9.
+
+function changeText(){
+    const button = document.getElementById("кнопка")
+    button.textContent = "Нажал)"
+    console.log("Кнопка нажата")
+}
