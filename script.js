@@ -1,4 +1,4 @@
-// 1. Функция `Even`, которая проверяет, является ли число четным:
+// 1. 
 
 function Even (number) {     return number % 2===0 
 } 
@@ -8,7 +8,7 @@ if(isNum) {     console.log(num +"- четное число")
 } else {     console.log(num +"- нечетное число") 
 }  
 
-// 2. Подсчет количества одинаковых элементов в массиве `fruits`:
+// 2. 
 
 const fruits = ['kiwi', 'apple', 'kiwi', 'orange', 'kiwi', 'apple'];  
 const count = {};  
@@ -20,19 +20,19 @@ fruits.forEach(f => {
 });  
 console.log(count);  
 
-// 3. Функция `Message`, которая выводит сообщение с помощью `alert`:
+// 3. 
 
 function Message (message) {     alert (message); 
 } Message("Privet vsem") 
 
-// 4. Функция `greet`, которая запрашивает имя пользователя и выводит приветственное сообщение:
+// 4. 
 
  function greet (){ 
     let userName = prompt("Введите свое имя");     console.log(`Privet, ${userName}! Dobro pogalovat`); 
 }  
 greet ();  
 
-// 5. Функция `power`, которая возводит число в заданную степень с помощью `Math.pow`:  
+// 5. 
 
 function power (base, exponent) {    
     return Math.pow(base,exponent) 
@@ -53,6 +53,6 @@ let result = power(2,3);
  console.log(finish.one);
  console.log(finish.two);
 
- 
+
 //  7.
 
